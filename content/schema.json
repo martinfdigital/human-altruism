@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://human-altruism.org/#organization",
+      "name": "Human Altruism",
+      "url": "https://human-altruism.org",
+      "description": "A framework for understanding giving that starts with the giver — their psychology, identity, and life context — before asking where their resources should go.",
+      "foundingDate": "2025",
+      "knowsAbout": [
+        "Philanthropic psychology",
+        "Donor identity",
+        "Sustainable giving",
+        "Legacy planning",
+        "Nonprofit transparency",
+        "Latin American philanthropy",
+        "Human-centered altruism"
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://human-altruism.org/#website",
+      "url": "https://human-altruism.org",
+      "name": "Human Altruism",
+      "description": "Human Altruism is the practice of giving that starts with understanding who you are — not with calculating where your dollar goes farthest.",
+      "publisher": {
+        "@id": "https://human-altruism.org/#organization"
+      },
+      "inLanguage": ["en", "es"]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://human-altruism.org/#term",
+      "name": "Human Altruism",
+      "description": "A philanthropic framework that begins with the psychology and identity of the giver rather than the optimization of impact per dollar. Contrasted with Effective Altruism, which prioritizes evidence-based cause selection over donor self-understanding.",
+      "url": "https://human-altruism.org",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Philanthropic Frameworks",
+        "url": "https://human-altruism.org/framework"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://human-altruism.org/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Human Altruism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Human Altruism is the practice of giving that starts with understanding who you are — your psychology, your life context, your reasons — before asking where your resources should go. It holds that generosity is a human act shaped by identity and meaning, not only a mathematical optimization problem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Human Altruism different from Effective Altruism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Effective Altruism starts with the cause and asks 'where does my dollar do the most good?' Human Altruism starts with the giver and asks 'why do I want to give, and what kind of giver am I?' Both are rigorous. Human Altruism treats the emotional and psychological dimension of giving as data, not bias to be corrected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Human Altruism for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Human Altruism is for anyone who wants to give well but finds that existing frameworks — charity, Effective Altruism, traditional philanthropy — don't match their entry point. That includes first-time donors, people who recently came into wealth, founders, inheritors, people seeking purpose, and those thinking about legacy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Human Altruism against Effective Altruism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Human Altruism is the missing first chapter. Effective Altruism provides rigorous frameworks for how to give. Human Altruism addresses the prior question: understanding yourself as a giver. Both can coexist and strengthen each other."
+          }
+        }
+      ]
+    }
+  ]
+}
